@@ -28,8 +28,10 @@ def print_arr_numbers(arr_numbers):
 
 if __name__ == "__main__":
     arr_numbers = [64, 25, 12, 22, 11]
+    print("Values before Sorting")
     print_arr_numbers(arr_numbers)
     selection_sort(arr_numbers)
+    print("Values after Sorting")
     print_arr_numbers(arr_numbers)
 
 
